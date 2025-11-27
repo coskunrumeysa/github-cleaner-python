@@ -3,10 +3,6 @@ Clean public repo automated with python tool.
 
 # 🧹 GitHub Repo Cleaner (Toplu Repo Gizleyici)
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-
 GitHub hesabınızda birikmiş, kullanılmayan veya eski "Public" repoları tek tek elle gizlemekle uğraşmayın! Bu Python scripti, belirlediğiniz kriterlere göre repolarınızı saniyeler içinde **Private (Gizli)** moda çeker.
 
 ---
@@ -15,7 +11,7 @@ GitHub hesabınızda birikmiş, kullanılmayan veya eski "Public" repoları tek 
 
 Script çalıştırıldığında 155 adet repoyu saniyeler içinde temizlerken:
 
-![Uygulama Ekran Görüntüsü](ekran_goruntusu.jpg)
+![Uygulama Ekran Görüntüsü](ekran_goruntusu.jpeg)
 
 ---
 
@@ -36,7 +32,7 @@ Script çalıştırıldığında 155 adet repoyu saniyeler içinde temizlerken:
 ```bash
 pip install PyGithub
 
-⚙️ Yapılandırma (Token Alma)
+Yapılandırma (Token Alma)
 Bu scriptin çalışması için bir GitHub Personal Access Token'a ihtiyacınız var.
 
 GitHub'da Settings > Developer settings > Personal access tokens > Tokens (classic) yolunu izleyin.
@@ -47,7 +43,7 @@ Select scopes bölümünden repo kutucuğunu işaretleyin (Bu yetki repoları y�
 
 Oluşturulan token'ı kopyalayın ve güvenli bir yerde saklayın.
 
-▶️ Kullanım
+Kullanım
 Terminal veya Komut Satırını açın, projenin olduğu klasöre gelin ve scripti çalıştırın:
 
 Bash
